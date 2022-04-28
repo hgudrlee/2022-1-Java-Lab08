@@ -43,7 +43,7 @@ public class MathDriver {
                 System.out.println("Driver Name: " + mathCalculator.getName() + ", Answer: " + mathCalculator.getAbs(Integer.parseInt(args[2])));
                 break;
 
-            case "Sum":
+            case "SUM":
                 System.out.println("Driver Name: " + mathCalculator.getName() + ", Answer: " + mathCalculator.getSum(Integer.parseInt(args[2]), Integer.parseInt(args[3])));
                 break;
 
