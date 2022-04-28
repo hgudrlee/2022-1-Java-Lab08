@@ -29,7 +29,7 @@ public class MathDriver {
         mathCalculator.setName(args[0]);
 
         switch(args[1]) {
-            case "Max":
+            case "MAX":
                 System.out.println("Driver Name: " + mathCalculator.getName() + ", Answer: " + mathCalculator.getMax(Integer.parseInt(args[2]), Integer.parseInt(args[3])));
                 break;
 
