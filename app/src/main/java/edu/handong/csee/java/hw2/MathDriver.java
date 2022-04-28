@@ -35,7 +35,7 @@ public class MathDriver {
 
             // TO DO: Fill the rest of cases below. Do not modify other parts of this file.
 
-            case "Min":
+            case "MIN":
                 System.out.println("Driver Name: " + mathCalculator.getName() + ", Answer: " + mathCalculator.getMin(Integer.parseInt(args[2]), Integer.parseInt(args[3])));
                 break;
 
