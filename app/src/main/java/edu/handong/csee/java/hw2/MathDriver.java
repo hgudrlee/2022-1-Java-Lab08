@@ -39,7 +39,7 @@ public class MathDriver {
                 System.out.println("Driver Name: " + mathCalculator.getName() + ", Answer: " + mathCalculator.getMin(Integer.parseInt(args[2]), Integer.parseInt(args[3])));
                 break;
 
-            case "Abs":
+            case "ABS":
                 System.out.println("Driver Name: " + mathCalculator.getName() + ", Answer: " + mathCalculator.getAbs(Integer.parseInt(args[2])));
                 break;
 
